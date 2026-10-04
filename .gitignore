@@ -1,0 +1,6 @@
+# Só o site vai para o repositório. Fontes, referências e o projeto GymFlow ficam de fora.
+/*
+!/index.html
+!/assets/
+!/.gitignore
+!/.nojekyll

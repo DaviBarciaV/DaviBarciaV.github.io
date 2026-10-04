@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Davi Barcia | Desenvolvedor</title>
+  <meta name="description" content="Portfolio de Davi Barcia Viana: desenvolvedor fullstack e de dados em João Pessoa. Projetos como VIZZO Eyewear, GymFlow e soluções de dados e machine learning.">
+  <meta name="theme-color" content="#0b0c0e">
+  <meta property="og:title" content="Davi Barcia | Desenvolvedor">
+  <meta property="og:description" content="Fullstack, dados e IA aplicada. Projetos como VIZZO Eyewear e GymFlow.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232b4cff'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' dominant-baseline='middle' font-family='Arial Black,Arial' font-weight='900' font-size='30' fill='%23ffffff'%3EDB%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="is-loading">
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- PRELOADER -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <div class="loader__name"><span>Davi</span><span>Barcia</span></div>
+      <div class="loader__bar"><i></i></div>
+      <div class="loader__count mono"><span data-count>0</span>%</div>
+    </div>
+  </div>
+
+  <!-- CURSOR -->
+  <div class="cursor" aria-hidden="true"><span class="cursor__label"></span></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+
+  <!-- PROGRESS -->
+  <div class="progress" aria-hidden="true"><i></i></div>
+
+  <!-- NAV -->
+  <header class="nav">
+    <a href="#topo" class="nav__logo" data-magnetic aria-label="Início">DB<em>.</em></a>
+    <nav class="nav__links" aria-label="Principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#vizzo" data-sections="vizzo gymflow projetos">Projetos</a>
+      <a href="#experiencia">Experiência</a>
+    </nav>
+    <a href="#contato" class="nav__cta" data-magnetic><span>Contato</span></a>
+    <button class="nav__burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><i></i><i></i></button>
+  </header>
+
+  <div class="menu" id="menu" aria-hidden="true">
+    <nav class="menu__links" aria-label="Menu mobile">
+      <a href="#sobre"><small>01</small>Sobre</a>
+      <a href="#vizzo"><small>02</small>Projetos</a>
+      <a href="#experiencia"><small>03</small>Experiência</a>
+      <a href="#contato"><small>04</small>Contato</a>
+    </nav>
+    <div class="menu__foot mono">
+      <a href="mailto:davibarciaa@gmail.com">davibarciaa@gmail.com</a>
+      <span>João Pessoa, PB</span>
+    </div>
+  </div>
+
+  <main id="conteudo">
+
+    <!-- HERO -->
+    <section class="hero" id="topo">
+      <canvas class="hero__canvas" aria-hidden="true"></canvas>
+      <div class="hero__glow" aria-hidden="true"></div>
+
+      <div class="hero__top mono">
+        <span class="hero__status"><svg class="hero__pin" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Z" fill="currentColor"/><circle cx="12" cy="9" r="2.6" fill="var(--bg)"/></svg>João Pessoa, PB · Brasil</span>
+      </div>
+
+      <h1 class="sr-only">Davi Barcia</h1>
+      <img class="hero__me" src="assets/img/portrait-cut.webp" alt="Foto de Davi Barcia" width="800" height="1355" fetchpriority="high">
+      <canvas class="hero__name" aria-hidden="true"></canvas>
+
+      <div class="hero__bottom">
+        <p class="hero__lead">
+          Desenvolvedor
+          <span class="rotator" aria-live="polite"><span class="rotator__word">fullstack</span></span><br>
+          que transforma dados em produto, do banco à tela.
+        </p>
+        <div class="hero__actions">
+          <a href="#vizzo" class="btn btn--accent" data-magnetic data-cursor="Ver"><span>Ver projetos</span><b aria-hidden="true">↓</b></a>
+          <a href="#contato" class="btn btn--ghost" data-magnetic><span>Vamos conversar</span></a>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- MARQUEE -->
+    <section class="marquee" aria-label="Tecnologias">
+      <div class="marquee__track" data-marquee>
+        <div class="marquee__group">
+          <span>Python</span><i>✦</i><span>PostgreSQL</span><i>✦</i><span>Django</span><i>✦</i><span>React</span><i>✦</i><span>Flutter</span><i>✦</i><span>Supabase</span><i>✦</i><span>pgvector</span><i>✦</i><span>OpenCV</span><i>✦</i><span>Scikit-learn</span><i>✦</i><span>Power BI</span><i>✦</i><span>Firebase</span><i>✦</i><span>Cloudflare</span><i>✦</i><span>C++</span><i>✦</i>
+        </div>
+        <div class="marquee__group" aria-hidden="true">
+          <span>Python</span><i>✦</i><span>PostgreSQL</span><i>✦</i><span>Django</span><i>✦</i><span>Node · Express</span><i>✦</i><span>React</span><i>✦</i><span>Flutter</span><i>✦</i><span>Supabase</span><i>✦</i><span>pgvector</span><i>✦</i><span>OpenCV</span><i>✦</i><span>Scikit-learn</span><i>✦</i><span>Power BI</span><i>✦</i><span>Firebase</span><i>✦</i><span>Cloudflare</span><i>✦</i><span>C++</span><i>✦</i>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="about section" id="sobre">
+      <div class="container">
+        <header class="sec-head reveal">
+          <span class="sec-head__num mono">1</span>
+          <span class="sec-head__label mono">Sobre</span>
+        </header>
+
+        <p class="about__statement" data-words>
+          Gosto da parte do software que ninguém vê: a modelagem do banco, a query que precisa responder rápido, o pipeline que separa o dado útil do ruído. E gosto de levar isso até a interface, onde o resultado vira algo que alguém usa de verdade.
+        </p>
+
+        <div class="about__grid">
+          <div class="terminal reveal" data-terminal>
+            <div class="terminal__bar">
+              <i></i><i></i><i></i>
+              <span class="mono">psql — davi@portfolio</span>
+            </div>
+            <pre class="terminal__body mono"><code data-type></code><span class="terminal__caret"></span></pre>
+          </div>
+
+          <div class="about__facts">
+            <div class="fact reveal">
+              <span class="fact__k mono">Foco</span>
+              <span class="fact__v">Fullstack (front-end) · Backend & Dados</span>
+            </div>
+            <div class="fact reveal">
+              <span class="fact__k mono">Formação</span>
+              <span class="fact__v">Ciência da Computação<br><small>Universidade Cruzeiro do Sul · 2024 — 2027</small></span>
+            </div>
+            <div class="fact reveal">
+              <span class="fact__k mono">Idiomas</span>
+              <span class="fact__v">Português nativo · Inglês avançado</span>
+            </div>
+            <div class="fact reveal">
+              <span class="fact__k mono">Agora</span>
+              <span class="fact__v">Dev fullstack com foco em front-end na DC Tech e cuidando do digital da VIZZO</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIZZO -->
+    <section class="vizzo" id="vizzo" data-nav="light">
+      <div class="vizzo__hero">
+        <div class="vizzo__bg" data-parallax="0.15"><img src="assets/img/vizzo-hero.webp" alt="Campanha VIZZO Eyewear: modelo de óculos de sol tartaruga num terraço sobre o mar Egeu" loading="lazy" width="1400" height="788"></div>
+        <div class="vizzo__shade"></div>
+        <div class="container vizzo__head">
+          <header class="sec-head sec-head--light reveal">
+            <span class="sec-head__num mono">2</span>
+            <span class="sec-head__label mono">E-commerce</span>
+          </header>
+          <img class="vizzo__logo reveal" src="assets/img/vizzo-logo.webp" alt="VIZZO" width="500" height="127" loading="lazy">
+          <p class="vizzo__claim reveal">Cofundador do e-commerce e responsável pelo lado digital da marca de óculos.</p>
+        </div>
+      </div>
+
+      <div class="container vizzo__body">
+        <div class="vizzo__products" aria-hidden="true">
+          <figure class="prod" data-float="1"><img src="assets/img/vizzo-apolo.webp" alt="" loading="lazy" width="700" height="700"><figcaption class="mono">Apolo · Mel</figcaption></figure>
+          <figure class="prod" data-float="2"><img src="assets/img/vizzo-medusa.webp" alt="" loading="lazy" width="700" height="700"><figcaption class="mono">Medusa · Degradê</figcaption></figure>
+          <figure class="prod" data-float="3"><img src="assets/img/vizzo-egeu.webp" alt="" loading="lazy" width="700" height="700"><figcaption class="mono">Egeu · Pretazul</figcaption></figure>
+        </div>
+
+        <div class="vizzo__features">
+          <div class="feat reveal">
+            <h4>VIZZO V-VEST</h4>
+            <p>Provador virtual autoral, com detecção de rosto que mede automaticamente a distância dos olhos, automaticamente aparecendo o modelo selecionado após o anexo de uma foto.</p>
+          </div>
+          <div class="feat reveal">
+            <h4>Loja completa, sem framework</h4>
+            <p>Catálogo com as cores de cada modelo, sacola, checkout e páginas institucionais, tudo em HTML, CSS e JavaScript puro.</p>
+          </div>
+          <div class="feat reveal">
+            <h4>Newsletter com duplo opt-in</h4>
+            <p>Edge Function no Supabase com envio pelo Brevo e proteção anti-bot com Cloudflare Turnstile. Política de privacidade alinhada à LGPD.</p>
+          </div>
+        </div>
+
+        <div class="vizzo__foot reveal">
+          <div class="stats">
+            <div class="stat"><b data-countto="7">0</b><span class="mono">modelos autorais</span></div>
+            <div class="stat"><b data-countto="22">0</b><span class="mono">variantes no provador</span></div>
+            <div class="stat"><b>0</b><span class="mono">frameworks no front</span></div>
+          </div>
+          <a class="btn btn--light" href="https://vizzoeyewear.com.br" target="_blank" rel="noopener" data-magnetic data-cursor="Abrir"><span>vizzoeyewear.com.br</span><b aria-hidden="true">↗</b></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- GYMFLOW -->
+    <section class="gym section" id="gymflow">
+      <div class="container gym__grid">
+        <div class="gym__text">
+          <header class="sec-head reveal">
+            <span class="sec-head__num mono">3</span>
+            <span class="sec-head__label mono">App mobile · Flutter</span>
+          </header>
+          <img class="gym__logo reveal" src="assets/img/gymflow-logo.webp" alt="GymFlow" width="200" height="147" loading="lazy">
+          <h2 class="title-xl reveal-lines">
+            <span class="line"><span>Treino e dieta</span></span>
+            <span class="line"><span>que se <em>adaptam</em></span></span>
+          </h2>
+          <p class="gym__desc reveal">App para quem quer começar a treinar, quem estagnou e quem tem rotina corrida. A partir de uma avaliação inicial (peso, altura, rotina, metas), o GymFlow gera o plano de treino da semana e o plano alimentar, e acompanha a evolução com gráficos.</p>
+          <ul class="gym__list reveal">
+            <li><b>Dois perfis</b> Aluno e personal trainer: o personal acompanha alunos, edita treinos e dietas e vê o progresso de cada um.</li>
+            <li><b>Geração de planos</b> Serviço que busca templates por objetivo no Firestore e monta treino e refeições com base no perfil.</li>
+            <li><b>Projeto solo</b> Trabalho da disciplina de Desenvolvimento Mobile, planejado e desenvolvido inteiramente por mim, do layout ao Firebase.</li>
+          </ul>
+          <ul class="tags mono reveal"><li>Flutter · Dart</li><li>Firebase Auth</li><li>Cloud Firestore</li><li>Riverpod</li><li>go_router</li><li>fl_chart</li></ul>
+          <a class="btn btn--ghost reveal" href="https://github.com/DaviBarciaV/gymflow" target="_blank" rel="noopener" data-magnetic data-cursor="Código"><span>Ver no GitHub</span><b aria-hidden="true">↗</b></a>
+        </div>
+
+        <div class="gym__device" aria-hidden="true">
+          <div class="phone" data-tilt>
+            <div class="phone__notch"></div>
+            <div class="phone__screen">
+              <div class="app">
+                <div class="app__top">
+                  <div><small>Bom treino,</small><b>Davi</b></div>
+                  <span class="app__avatar">DB</span>
+                </div>
+                <div class="app__hero">
+                  <svg class="ring" viewBox="0 0 120 120">
+                    <circle cx="60" cy="60" r="50" class="ring__bg"/>
+                    <circle cx="60" cy="60" r="50" class="ring__fg" pathLength="100"/>
+                    <circle cx="60" cy="60" r="38" class="ring__bg"/>
+                    <circle cx="60" cy="60" r="38" class="ring__fg ring__fg--b" pathLength="100"/>
+                  </svg>
+                  <div class="app__heroTxt">
+                    <small>Hoje</small>
+                    <b>Treino A</b>
+                    <span>Peito · Tríceps</span>
+                  </div>
+                </div>
+                <div class="app__cards">
+                  <div class="acard"><small>Kcal</small><b data-countto="1840">0</b></div>
+                  <div class="acard"><small>Água</small><b>2,1 L</b></div>
+                </div>
+                <div class="app__chart">
+                  <small>Progresso · peso (kg)</small>
+                  <svg viewBox="0 0 200 70" preserveAspectRatio="none">
+                    <defs><linearGradient id="gfill" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#2ECC71" stop-opacity=".45"/><stop offset="1" stop-color="#2ECC71" stop-opacity="0"/></linearGradient></defs>
+                    <path class="chart__area" d="M0,18 C25,20 35,30 60,32 S100,40 120,44 S170,52 200,56 L200,70 L0,70Z" fill="url(#gfill)"/>
+                    <path class="chart__line" d="M0,18 C25,20 35,30 60,32 S100,40 120,44 S170,52 200,56" fill="none" stroke="#2ECC71" stroke-width="2.5" pathLength="100"/>
+                  </svg>
+                </div>
+                <div class="app__list">
+                  <div class="ex"><i></i><span>Supino reto</span><em>4 × 10</em></div>
+                  <div class="ex"><i></i><span>Crucifixo</span><em>3 × 12</em></div>
+                  <div class="ex"><i></i><span>Tríceps corda</span><em>3 × 15</em></div>
+                </div>
+                <div class="app__nav"><i class="on"></i><i></i><i></i><i></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="gym__orbit"><span>Firebase</span><span>Riverpod</span><span>Flutter</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUTROS PROJETOS -->
+    <section class="more section" id="projetos">
+      <div class="container">
+        <header class="sec-head reveal">
+          <span class="sec-head__num mono">4</span>
+          <span class="sec-head__label mono">Dados & Machine Learning</span>
+        </header>
+        <h2 class="title-xl reveal-lines">
+          <span class="line"><span>Outros projetos</span></span>
+        </h2>
+
+        <div class="more__grid">
+          <a class="pcard reveal" href="https://github.com/DaviBarciaV/SmartPark" target="_blank" rel="noopener" data-cursor="GitHub">
+            <div class="pcard__viz pcard__viz--park" aria-hidden="true">
+              <i></i><i class="busy"></i><i></i><i class="busy"></i><i class="busy"></i><i></i><i></i><i class="busy"></i><i></i><i class="busy"></i><i></i><i></i>
+            </div>
+            <div class="pcard__body">
+              <span class="pcard__k mono">Visão computacional</span>
+              <h3>SmartPark</h3>
+              <p>Detecta vagas de estacionamento com um modelo de IA e contabiliza em tempo real as vagas livres e ocupadas.</p>
+              <ul class="tags mono"><li>Python</li><li>OpenCV</li><li>NumPy</li><li>Pickle</li></ul>
+            </div>
+            <span class="pcard__arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="pcard reveal" href="https://github.com/DaviBarciaV/Deteccao-Anomalias-ML" target="_blank" rel="noopener" data-cursor="GitHub">
+            <div class="pcard__viz pcard__viz--anom" aria-hidden="true">
+              <svg viewBox="0 0 200 80" preserveAspectRatio="none"><polyline points="0,50 15,46 30,52 45,44 60,49 75,47 90,12 105,48 120,45 135,51 150,43 165,70 180,46 200,48" fill="none" stroke="currentColor" stroke-width="2" pathLength="100"/></svg>
+              <b style="left:45%;top:24%"></b><b style="left:82.5%;top:78%"></b>
+            </div>
+            <div class="pcard__body">
+              <span class="pcard__k mono">Machine Learning</span>
+              <h3>Detecção de anomalias</h3>
+              <p>Identifica transações financeiras anômalas e suspeitas com ML, numa interface em Streamlit para empresas que precisam de controle.</p>
+              <ul class="tags mono"><li>Python</li><li>Scikit-learn</li><li>Pandas</li><li>Streamlit</li></ul>
+            </div>
+            <span class="pcard__arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="pcard reveal" href="https://github.com/DaviBarciaV/F1DataAnalysis" target="_blank" rel="noopener" data-cursor="GitHub">
+            <div class="pcard__viz pcard__viz--f1" aria-hidden="true">
+              <i style="--h:62%"></i><i style="--h:88%"></i><i style="--h:45%"></i><i style="--h:72%"></i><i style="--h:95%"></i><i style="--h:58%"></i><i style="--h:80%"></i><i style="--h:40%"></i>
+            </div>
+            <div class="pcard__body">
+              <span class="pcard__k mono">Análise de dados</span>
+              <h3>F1 Data Analysis</h3>
+              <p>Análise histórica da Fórmula 1 de 1950 a 2022: EDA e protótipos em Python, dashboard final em Power BI.</p>
+              <ul class="tags mono"><li>Pandas</li><li>Plotly</li><li>Power BI</li><li>Jupyter</li></ul>
+            </div>
+            <span class="pcard__arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIÊNCIA -->
+    <section class="exp section" id="experiencia">
+      <div class="container">
+        <header class="sec-head reveal">
+          <span class="sec-head__num mono">5</span>
+          <span class="sec-head__label mono">Trajetória</span>
+        </header>
+        <h2 class="title-xl reveal-lines">
+          <span class="line"><span>Experiência</span></span>
+        </h2>
+
+        <div class="timeline" data-timeline>
+          <div class="timeline__line"><i></i></div>
+
+          <article class="tl reveal">
+            <div class="tl__when mono">AGO - 2026 - PRESENTE</div>
+            <div class="tl__body">
+              <h3>DC Tech <small>Desenvolvedor Fullstack · foco em front-end</small></h3>
+              <p>Atuo no desenvolvimento fullstack de projetos para clientes, com foco no front-end: construo interfaces web responsivas e animadas, cuido de performance e acessibilidade e integro a interface às APIs e aos bancos de dados do back-end.</p>
+            </div>
+          </article>
+
+          <article class="tl reveal">
+            <div class="tl__when mono">Mar — Jul 2026</div>
+            <div class="tl__body">
+              <h3>UBTech <small>Extensionista · Projeto OperaPB (Fábrica de Software)</small></h3>
+              <p>Sistema do governo para gerenciar formulários de cirurgias. Fiz a modelagem, criação das tabelas e normalização do banco em PostgreSQL, escrevi as queries de consulta, validação e manipulação e apoiei o back-end em Django na integração da camada de dados.</p>
+            </div>
+          </article>
+
+          <article class="tl reveal">
+            <div class="tl__when mono">Abr — Mai 2025</div>
+            <div class="tl__body">
+              <h3>Sectras <small>Analista de dados</small></h3>
+              <p>Implementei códigos, analisei e criei soluções para bancos de dados de diversas empresas usando Machine e Deep Learning com Python, PostgreSQL e Excel.</p>
+            </div>
+          </article>
+
+          <article class="tl reveal">
+            <div class="tl__when mono">2024 — 2027</div>
+            <div class="tl__body">
+              <h3>Universidade Cruzeiro do Sul <small>Bacharelado em Ciência da Computação</small></h3>
+              <p>Graduação em andamento, com projetos como o GymFlow, desenvolvido em Flutter na disciplina de Desenvolvimento Mobile.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="skills">
+          <div class="skills__col reveal">
+            <h4 class="mono">Linguagens</h4>
+            <p>Python · C++ · JavaScript / TypeScript · Dart · SQL</p>
+          </div>
+          <div class="skills__col reveal">
+            <h4 class="mono">Dados</h4>
+            <p>PostgreSQL · Firebase · Supabase · pgvector · Power BI · Excel</p>
+          </div>
+          <div class="skills__col reveal">
+            <h4 class="mono">ML & IA</h4>
+            <p>Pandas · NumPy · Scikit-learn · OpenCV · Streamlit · LLMs / RAG · Fine-tuning</p>
+          </div>
+          <div class="skills__col reveal">
+            <h4 class="mono">Cursos · 2025</h4>
+            <p>MySQL (Curso em Vídeo) · SCRUM (IFRS) · Ciência de Dados e IA Generativa (Sectras) · Python (DevMedia)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="contact" id="contato" data-nav="accent">
+      <div class="container">
+        <span class="mono contact__k reveal">6 · Contato</span>
+        <h2 class="contact__title">
+          <span class="line"><span class="split">Vamos</span></span>
+          <span class="line"><span class="split">construir</span> <em class="split">algo?</em></span>
+        </h2>
+
+        <button class="contact__mail" data-copy="davibarciaa@gmail.com" data-cursor="Copiar">
+          <span class="contact__mailTxt">davibarciaa@gmail.com</span>
+          <span class="contact__mailHint mono">clique para copiar</span>
+        </button>
+
+        <div class="contact__links">
+          <a href="https://www.linkedin.com/in/davi-barcia-viana-35a31a323" target="_blank" rel="noopener" data-magnetic><span>LinkedIn</span><b aria-hidden="true">↗</b></a>
+          <a href="https://github.com/DaviBarciaV" target="_blank" rel="noopener" data-magnetic><span>GitHub</span><b aria-hidden="true">↗</b></a>
+          <a href="https://wa.me/5583991513525" target="_blank" rel="noopener" data-magnetic><span>WhatsApp</span><b aria-hidden="true">↗</b></a>
+          <a href="mailto:davibarciaa@gmail.com" data-magnetic><span>E-mail</span><b aria-hidden="true">↗</b></a>
+        </div>
+      </div>
+
+      <footer class="footer" data-nav="dark">
+        <div class="footer__big" aria-hidden="true">DAVI BARCIA</div>
+        <div class="container footer__row mono">
+          <span>© <span data-year>2026</span> Davi Barcia Viana</span>
+          <span class="hide-sm">Feito à mão, sem framework</span>
+          <a href="#topo" data-magnetic>Voltar ao topo ↑</a>
+        </div>
+      </footer>
+    </section>
+  </main>
+
+  <div class="toast mono" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
